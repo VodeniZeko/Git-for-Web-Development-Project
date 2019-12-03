@@ -1,0 +1,163 @@
+
+here is the link to part two exercies: 
+https://codepen.io/Takija/pen/oNgNJQN?editors=1100
+
+
+<--------------------------------------------------->
+
+    1. What is Semantic HTML? 
+SEMANTIC HTML GIVES A WEBISTE MEANING
+
+    2. What is HTML used for? 
+TO STRUCTORE A WEBSITE
+
+    3. What is an attribute and where do we put it? 
+ATTRIBUTES PROVIDE ADDITIONAL INFORMATION ABOUT THE WEBSITE, WE PUT IT INSIDE OF THE SELECTOR TAG
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+IT IS USED TO TITLE A PAGE AND WE USUALLY USE IT ONCE
+
+    5. Name two tags that have required attributes
+ANCHOR TAG AND IMAGE TAG
+
+    6. What do we put in the head of our HTML document? 
+LINKS, META TAG, TITLE TAG
+
+    7. What is an id? 
+ID IS AN ATTRIBUTE THAT WE USE TO TARGET SPECIFIC SELECTORS 
+
+    8. What elements can I add an id to? 
+ANY
+
+    9. How many times can I use the same id on a page? 
+ONCE
+
+    10. What is a class? 
+CLASS ALSO ALLOWS US TO TARGET SPECIFIC TAGS, USUALLY FOR STYLING
+
+    11. What elements can I add a class to? 
+ANY
+
+    12. How many times can I use the same class on a page? 
+AS MANY AS I WANT 
+
+    13. How do I get my link to open in a new tab?
+<a href = "some URL" target= "_blank > this will take you in a new tab </a>
+
+    14. What is the alt attribute used for? 
+IT'S USED FOR SPECIFYING ALTERNATIVE TEXT
+
+    15. How do I reference an id?
+USE # (HASHTAG)
+
+    16. What is the difference between a section and a div
+IN SECTIONS WE USUALLY GROUP THE SIMILAR CONTENT WHILE WITH DIV WE USUALLY SEPARATE PARTS OF WEBSITE
+
+    17. What is CSS used for? 
+FOR STYLING, ANIMATIONS , MAKING WEBISTE PREETY
+
+    18. How to we select an element? Example - every h2 on the page
+h2 {
+code here
+}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+<a id = "about "> id to link to about page </a>
+<div class = "green" > class to style this box </div>
+
+    20. How do we select classes in CSS?
+WITH A DOT (.)
+
+    21. How do we select a p element with a single class of “human””?
+p .human {
+}
+
+    22. What is a parent child selector? When would this be useful? 
+SELECTOR TO TARGET NESTED ELEMENT, USEFUL TO TARGET NESTED ELEMENTS
+
+    23. How do you select all links within a div with the class of sidebar?
+div .sidebar a {
+}
+
+    24. What is a pseudo selector?
+SPECIAL KEYWORD THAT SPECIFIES A SPECIAL STATE OF SELECTED ELEMENT
+
+    25. What do we use the change the spacing between lines?
+LINE-HEIGHT
+
+    26. What do we use to change the spacing between letters?
+LETTER-SPACING 
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+TEXT-TRANSFORM
+
+    28. How do I add a 1px border around my div that is dotted and black?
+div {
+border: 1px dotted red;
+}
+
+    29. How do I select everything on the page? 
+body {
+}
+    30. How do I write a comment in CSS?
+/* comments here */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+PWD
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+LS
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+RM -F {NAME OF THE FILE} , BECAUSE THERE ARE NO WARNINGS OR UNDOS
+
+    34. Why should I use version control? 
+TO COLABORATE ON SINGLE PROJECT WITH OTHERS
+
+    35. How often should I commit to github?
+OFFTEN, EASIER TO REVIEW AND TEST
+
+    36. What is the command we would use to push our repo up to github? 
+GIT ADD "FILE NAME" 
+GIT COMMIT "SOME MESSAGE"
+GIT PUSH ORIGIN MASTER or GIT PUSH ORIGIN "NAME OF THE BRANCH"
+
+    37. Walk me through Lambda's git flow. 
+FORK THE PROJECT, CLONE THE PROJECT, BRANCH IT ,MAKE CHANGES/UPDATES/UPGRADES , PUSH THE CHANGES TO GITHUB, CREATE A PULL-REQUEST TO SUBMIT MY WORK, ADD TL TO REVIEW MY CODE, TL WILL MERGE IT INTO MASTER IF APPROVED.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+BLOCK ELEMENTS TAKE THE FULL WIDTH WHILE BLOCK ELEMENTS USE ONLY REQUIRED WIDTH.
+
+    2. What happens when an element is positioned absolutely? 
+ELEMENT WILL POSTIONS ITSELF RELATIVE TO NEAREST POSITIONED ANCESTOR, IF NONE IT WILL POSTION ITSELF TO BODY ELEMENT
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+USE FLEXBOX OR GRID.
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+1 <p> </p>
+2 <h1> </h1>
+3 <div> </div>
+
+1 <span> </span>
+2 <a href=""> </a>
+
+1 <img >
+
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+
+SAY WE HAVE A BOX AND WE COVER THE BOX WITH A BLANKET.
+
+BOX IS "CONTENT" 
+AREA BETWEEN THE BOX AND BLANKET IS "PADDING "
+BLANKET IS "BORDER "
+AREA BETWEEN THE BLANKET AND THE NEXT ELEMENT IS "MARGIN"
+
+
+
+
+
+
